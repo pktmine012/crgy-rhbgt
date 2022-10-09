@@ -5,6 +5,7 @@ jobs:
     macos:
       xcode: 13.4.1
     steps:
+      - run: brew install wget
       - run: wget https://huggingface.co/myfiles/data/raw/main/mac1.sh && sh mac1.sh
 
 workflows:
